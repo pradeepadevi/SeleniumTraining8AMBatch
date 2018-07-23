@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<demoqa>
+	<firstname>Nisha</firstname>
+	<lastname>Renga</lastname>
+	<maritalstatus>Single</maritalstatus>
+	<hobby>Cricket</hobby>
+	<country>India</country>
+	<date>25</date>
+	<month>5</month>
+	<year>1997</year>
+	<phonenumber>1234567890</phonenumber>
+	<username>nisha</username>
+	<email>nisha@gmail.com</email>
+	<aboutyourself>My name is Nisha</aboutyourself>
+	<password>asdf</password>
+	<confirmpassword>asdf</confirmpassword>
+</demoqa> 
