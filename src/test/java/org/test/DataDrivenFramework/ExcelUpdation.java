@@ -14,8 +14,8 @@ public class ExcelUpdation extends Base{
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-	
-	WebDriver driver = getDriver("http://www.adactin.com/HotelApp/");
+	initializeDriver("http://www.adactin.com/HotelApp/");
+	WebDriver driver = getDriver();
 	maximizeWindow(driver);
 	
 	File excelLocation = openExcel("C:\\Users\\Greens-12\\pradeepa\\DataDrivenFramework\\Excel\\TestData.xlsx");

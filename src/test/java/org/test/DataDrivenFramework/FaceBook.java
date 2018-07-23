@@ -8,7 +8,8 @@ import org.openqa.selenium.WebElement;
 
 public class FaceBook  extends Base{
 public static void main(String[] args) throws IOException {
-	WebDriver driver = getDriver("http://www.facebook.com");
+	initializeDriver("http://www.facebook.com");
+	WebDriver driver = getDriver();
 	
 	File openExcel = openExcel("C:\\Users\\Greens-12\\pradeepa\\DataDrivenFramework\\Excel\\FB.xlsx");
 	initializeExcelData(openExcel, "Sheet1");
